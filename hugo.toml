@@ -1,0 +1,38 @@
+baseURL = "https://example.com/"
+title = "MorDictionary"
+theme = "hugo-brewm"
+languageCode = "en-us"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url  = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Archive"
+    url  = "/archive/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Categories"
+    url  = "/categories/"
+    weight = 30
+
+  [[menu.main]]
+    name = "Tags"
+    url  = "/tags/"
+    weight = 40
+
+# ✅ Allow raw HTML blocks in Markdown (so your <div class="themed-dict-entry"> renders)
+[markup.goldmark.renderer]
+  unsafe = true
+
+# ✅ Tell the theme to include both “posts” and “post” sections in the blog feed
+[params]
+  mainSections = ["posts", "post"]
+
