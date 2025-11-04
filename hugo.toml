@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://mordictionary.github.io/"
 title = "MorDictionary"
 theme = "hugo-brewm"
 languageCode = "en-us"
@@ -9,30 +9,30 @@ languageCode = "en-us"
 
 [menu]
   [[menu.main]]
-    name = "Blog"
-    url  = "/posts/"
-    weight = 10
+  name = "Blog"
+  url = "/posts/"
+  weight = 10
 
   [[menu.main]]
-    name = "Archive"
-    url  = "/archive/"
-    weight = 20
+  name = "Archive"
+  url = "/archive/"
+  weight = 20
 
   [[menu.main]]
-    name = "Categories"
-    url  = "/categories/"
-    weight = 30
+  name = "Categories"
+  url = "/categories/"
+  weight = 30
 
   [[menu.main]]
-    name = "Tags"
-    url  = "/tags/"
-    weight = 40
+  name = "Tags"
+  url = "/tags/"
+  weight = 40
 
-# ✅ Allow raw HTML blocks in Markdown (so your <div class="themed-dict-entry"> renders)
+# Allow raw HTML blocks in Markdown
 [markup.goldmark.renderer]
   unsafe = true
 
-# ✅ Tell the theme to include both “posts” and “post” sections in the blog feed
+# Tell the theme to include both “posts” and “post” sections in the blog feed
 [params]
   mainSections = ["posts", "post"]
 
