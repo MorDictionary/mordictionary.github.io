@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
   <channel>
-    <title>MorDictionary</title>
+    <title>Home on MorDictionary</title>
     <link>http://localhost:1313/</link>
-    <description>Recent Posts on MorDictionary</description>
+    <description>Recent Posts in Home on MorDictionary</description>
     <generator>Hugo 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Nov 2025 04:29:50 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 05:16:46 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Xenoestrogen</title>
