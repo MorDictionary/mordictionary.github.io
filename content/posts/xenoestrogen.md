@@ -39,7 +39,7 @@ cover: "/images/xenoestrogen.png"
   <a href="/images/Xenoestrogen.png" style="display: inline-block; margin: 0 auto;">
     <img src="/images/Xenoestrogen.png"
          alt="Illustration of the xenoestrogen molecular structure"
-         style="border-radius: 16px; max-width: 320px; width: 100%; height: auto; box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);" />
+         style="border-radius: 16px; max-width: 320px; width: 100%; height: auto; box-shadow: 0 0 8px rgba(0,0,0,0.2);" />
   </a>
 </div>
 
