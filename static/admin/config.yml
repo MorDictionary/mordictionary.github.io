@@ -1,7 +1,8 @@
-local_backend: true
+local_backend: false
 
 backend:
-  name: test-repo
+  name: git-gateway
+  branch: main   # or your deploy branch
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
@@ -12,14 +13,9 @@ collections:
     folder: "content/posts"
     create: true
     slug: "{{slug}}"
-    format: yaml-frontmatter
+    extension: "md"
+    format: "yaml-frontmatter"
     fields:
-      - label: "Title"
-        name: "title"
-        widget: "string"
-      - label: "Date"
-        name: "date"
-        widget: "datetime"
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date",  name: "date",  widget: "datetime" }
+      - { label: "Body",  name: "body",  widget: "markdown" }
