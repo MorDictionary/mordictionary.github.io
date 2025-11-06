@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
   <channel>
     <title>Tags on MorDictionary</title>
-    <link>https://mordictionary.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent Posts in Tags on MorDictionary</description>
     <generator>Hugo 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Nov 2025 06:27:18 -0500</lastBuildDate>
-    <atom:link href="https://mordictionary.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Nov 2025 20:32:18 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Environmental-Health</title>
-      <link>https://mordictionary.github.io/tags/environmental-health/</link>
+      <link>http://localhost:1313/tags/environmental-health/</link>
       <pubDate>Tue, 04 Nov 2025 04:25:00 -0500</pubDate>
-      <guid>https://mordictionary.github.io/tags/environmental-health/</guid>
+      <guid>http://localhost:1313/tags/environmental-health/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
       <title>Hormones</title>
-      <link>https://mordictionary.github.io/tags/hormones/</link>
+      <link>http://localhost:1313/tags/hormones/</link>
       <pubDate>Tue, 04 Nov 2025 04:25:00 -0500</pubDate>
-      <guid>https://mordictionary.github.io/tags/hormones/</guid>
+      <guid>http://localhost:1313/tags/hormones/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
       <title>Toxicology</title>
-      <link>https://mordictionary.github.io/tags/toxicology/</link>
+      <link>http://localhost:1313/tags/toxicology/</link>
       <pubDate>Tue, 04 Nov 2025 04:25:00 -0500</pubDate>
-      <guid>https://mordictionary.github.io/tags/toxicology/</guid>
+      <guid>http://localhost:1313/tags/toxicology/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>

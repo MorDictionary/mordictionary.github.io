@@ -35,13 +35,13 @@ cover: "/images/xenoestrogen.png"
   Xenoestrogens are a diverse class of <strong>natural and artificial chemicals</strong> that mimic or interfere with the function of the hormone <em>estrogen</em>. They may bind to estrogen receptors, alter endocrine signaling, or disrupt normal reproductive development. Common sources include <strong>plastics</strong> (e.g., BPA, phthalates), <strong>pesticides</strong>, and certain <strong>industrial byproducts</strong>.
   </span></p>
 
-  <div class="separator" style="clear: both; text-align: center; margin: 1.5em 0;">
-    <a href="/Xenoestrogen.png" style="margin-left: 1em; margin-right: 1em;">
-      <img src="/Xenoestrogen.png"
-           alt="Illustration of xenoestrogen molecular structure"
-           style="border-radius: 16px; width: 320px; height: auto; box-shadow: 0 0 8px rgba(0,0,0,0.2);" />
-    </a>
-  </div>
+<div class="separator" style="clear: both; text-align: center; margin: 1.5em 0;">
+  <a href="/images/Xenoestrogen.png" style="display: inline-block; margin: 0 auto;">
+    <img src="/images/Xenoestrogen.png"
+         alt="Illustration of the xenoestrogen molecular structure"
+         style="border-radius: 16px; max-width: 320px; width: 100%; height: auto; box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);" />
+  </a>
+</div>
 
   <hr />
 
