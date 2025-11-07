@@ -2,7 +2,7 @@ baseURL = "https://mordictionary.github.io/"
 title = "MorDictionary"
 theme = "hugo-brewm"
 languageCode = "en-us"
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = true
 
 [taxonomies]
