@@ -4,7 +4,7 @@ date: 2025-11-07T03:30:00-05:00
 draft: false
 type: "post"
 categories: ["Biology", "Etymology"]
-tags: ["zoology", "behavioral-biology", "lexicography"]
+tags: ["zoology", "behavioral-biology"]
 summary: "Relating to or characterized by the eating of excrement."
 cover: "/images/500_Science/M/Merdivorous.png"
 ---
