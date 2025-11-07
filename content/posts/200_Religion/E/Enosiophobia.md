@@ -6,7 +6,8 @@ type: "post"
 categories: ["Psychology", "Theology"]
 tags: ["sin", "forgiveness", "fear", "faith"]
 summary: "The fear or belief that one has committed an unpardonable sin, or the dread of being judged beyond forgiveness."
-cover: "/images/Enosiophobia.png"
+image: "/images/200_Religion/E/Enosiophobia.png"
+images: ["/images/200_Religion/E/Enosiophobia.png"]
 ---
 
 # Enosiophobia
@@ -20,7 +21,7 @@ cover: "/images/Enosiophobia.png"
 
 ## Definition
 1. The fear or tormenting belief that one has committed an unpardonable sin, beyond the reach of grace or redemption.  
-2. By extension, an overwhelming fear of moral condemnation or unforgiveness — by God, others, or oneself.
+2. By extension, an overwhelming fear of moral condemnation or unforgiveness by God, others, or oneself.
 
 ![Symbolic depiction of Enosiophobia](/images/200_Religion/E/Enosiophobia.png)
 
@@ -28,7 +29,7 @@ cover: "/images/Enosiophobia.png"
 
 ## Example Sentences
 - Listening to **LE SSERAFIM’s** *“Unforgiven”* felt like an act of rebellion against *enosiophobia* itself — a refusal to live chained by shame, and a reminder that self-worth need not depend on human absolution.  
-- In contrast, **Robert Rule**, a Christian father who forgave his daughter’s murderer — the *Green River Killer* — embodied the antidote to *enosiophobia*: the conviction that no sin lies beyond Christ’s forgiveness, that even the tax collector and the prostitute may be redeemed if they come to Him in repentance.
+- In contrast, **Robert Rule**, a Christian father who forgave his daughter’s murderer — the serial killer known as the *Green River Killer* — embodied the antidote to *enosiophobia*: the conviction that even the gravest sinner can be forgiven through Christ’s grace, if he comes to repentance.
 
 ---
 
