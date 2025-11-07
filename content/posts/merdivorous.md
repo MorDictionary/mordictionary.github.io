@@ -6,9 +6,8 @@ type: "post"
 categories: ["Biology", "Etymology"]
 tags: ["zoology", "behavioral-biology", "lexicography"]
 summary: "Relating to or characterized by the eating of excrement."
-cover: "/images/Merdivorous.png"
+cover: "/images/500_Science/M/Merdivorous.png"
 ---
-
 # Merdivorous
 
 *English*
@@ -23,7 +22,7 @@ cover: "/images/Merdivorous.png"
 This feeding pattern, known as *coprophagy*, is observed in various animal species for nutrient recycling or digestive assistance.  
 The term may also describe any condition or tendency involving the ingestion of fecal matter.
 
-![Illustration of the merdivorous concept](/images/Merdivorous.png)
+![Illustration of the merdivorous concept](/images/500_Science/M/Merdivorous.png)
 
 ---
 
@@ -43,4 +42,4 @@ Literally “excrement-eating.”
 ## Related Terms
 - **Coprophagous** — feeding on feces  
 - **Detritivorous** — feeding on decomposing organic matter  
-- **Scatophagous** — consuming fecal matter  
+- **Scatophagous** — consuming fecal matter
