@@ -6,21 +6,9 @@ type: "post"
 categories: ["Biochemistry", "Endocrinology"]
 tags: ["hormones", "toxicology", "environmental-health"]
 summary: "Any of a group of natural or synthetic compounds showing hormone-like activity that acts as an estrogen."
-cover: "/images/Xenoestrogen.png"   # ← match exact filename/case
-# ----- SRS additions -----
-srs: true
-srs_tags: ["MorDictionary", "biochem"]
-cards:
-  - q: "Define xenoestrogen."
-    a: "A foreign compound that produces estrogen-like effects by interacting with estrogen receptors."
-    tags: ["definition"]
-  - q: "Name two common sources of xenoestrogens."
-    a: "Plastics (e.g., BPA, some phthalates) and pesticides."
-    tags: ["sources"]
-  - q: "Mechanistically, how can xenoestrogens disrupt physiology?"
-    a: "They can bind estrogen receptors, alter endocrine signaling, or disturb reproductive development."
-    tags: ["mechanism"]
+cover: "/images/Xenoestrogen.png"
 ---
+
 <div class="themed-dict-entry">
 
   <h3><span style="font-size: large;">Xenoestrogen</span></h3>
@@ -76,8 +64,5 @@ cards:
     <li><strong>Endocrine disruptor</strong> — substance that interferes with hormonal systems.</li>
     <li><strong>Hormone mimic</strong> — molecule imitating natural hormone action.</li>
   </ul>
-
-  <!-- Optional: render the cards on-page if you added the `showcards` shortcode -->
-  {{< showcards >}}
 
 </div>
