@@ -37,5 +37,3 @@ canonifyURLs = true
 # Tell the theme to include both “posts” and “post” sections in the blog feed
 [params]
   mainSections = ["posts", "post"]
-
-

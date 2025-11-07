@@ -2,11 +2,24 @@
 title: "Xenoestrogen"
 date: 2025-11-04T04:25:00-05:00
 draft: false
-type: "post"   # <— important
+type: "post"
 categories: ["Biochemistry", "Endocrinology"]
 tags: ["hormones", "toxicology", "environmental-health"]
 summary: "Any of a group of natural or synthetic compounds showing hormone-like activity that acts as an estrogen."
-cover: "/images/xenoestrogen.png"
+cover: "/images/Xenoestrogen.png"   # ← match exact filename/case
+# ----- SRS additions -----
+srs: true
+srs_tags: ["MorDictionary", "biochem"]
+cards:
+  - q: "Define xenoestrogen."
+    a: "A foreign compound that produces estrogen-like effects by interacting with estrogen receptors."
+    tags: ["definition"]
+  - q: "Name two common sources of xenoestrogens."
+    a: "Plastics (e.g., BPA, some phthalates) and pesticides."
+    tags: ["sources"]
+  - q: "Mechanistically, how can xenoestrogens disrupt physiology?"
+    a: "They can bind estrogen receptors, alter endocrine signaling, or disturb reproductive development."
+    tags: ["mechanism"]
 ---
 <div class="themed-dict-entry">
 
@@ -35,13 +48,13 @@ cover: "/images/xenoestrogen.png"
   Xenoestrogens are a diverse class of <strong>natural and artificial chemicals</strong> that mimic or interfere with the function of the hormone <em>estrogen</em>. They may bind to estrogen receptors, alter endocrine signaling, or disrupt normal reproductive development. Common sources include <strong>plastics</strong> (e.g., BPA, phthalates), <strong>pesticides</strong>, and certain <strong>industrial byproducts</strong>.
   </span></p>
 
-<div class="separator" style="clear: both; text-align: center; margin: 1.5em 0;">
-  <a href="/images/Xenoestrogen.png" style="display: inline-block; margin: 0 auto;">
-    <img src="/images/Xenoestrogen.png"
-         alt="Illustration of the xenoestrogen molecular structure"
-         style="border-radius: 16px; max-width: 320px; width: 100%; height: auto; box-shadow: 0 0 8px rgba(0,0,0,0.2);" />
-  </a>
-</div>
+  <div class="separator" style="clear: both; text-align: center; margin: 1.5em 0;">
+    <a href="/images/Xenoestrogen.png" style="display: inline-block; margin: 0 auto;">
+      <img src="/images/Xenoestrogen.png"
+           alt="Illustration of the xenoestrogen molecular structure"
+           style="border-radius: 16px; max-width: 320px; width: 100%; height: auto; box-shadow: 0 0 8px rgba(0,0,0,0.2);" />
+    </a>
+  </div>
 
   <hr />
 
@@ -63,5 +76,8 @@ cover: "/images/xenoestrogen.png"
     <li><strong>Endocrine disruptor</strong> — substance that interferes with hormonal systems.</li>
     <li><strong>Hormone mimic</strong> — molecule imitating natural hormone action.</li>
   </ul>
+
+  <!-- Optional: render the cards on-page if you added the `showcards` shortcode -->
+  {{< showcards >}}
 
 </div>
