@@ -2,17 +2,20 @@
 {{ $sections := site.Params.mainSections | default (slice "posts" "post") }}
 {{ $pages := where site.RegularPages "Section" "in" $sections }}
 
-<section class="tumblr-archive container">
-  {{ range $month := ($pages | groupByDate "January 2006") }}
-    <h2 class="ta-month">{{ $month.Key }}</h2>
+<section class="tumblr-archive">
+  {{ range $group := ($pages | groupByDate "January 2006") }}
+    <h2 class="ta-month">{{ $group.Key }}</h2>
+
     <div class="ta-grid">
-      {{ range $p := $month.Pages }}
+      {{ range $p := $group.Pages }}
+        {{/* pick a cover image: front-matter cover, images[0], or fallback */}}
         {{ $img := "" }}
         {{ with $p.Params.cover }}{{ $img = . }}{{ end }}
         {{ if and (eq $img "") ($p.Params.images) }}{{ $img = index $p.Params.images 0 }}{{ end }}
         {{ if eq $img "" }}{{ $img = "images/placeholder.png" }}{{ end }}
+
         <a class="ta-tile" href="{{ $p.RelPermalink }}" title="{{ $p.Title }}">
-          <img src="{{ $img | relURL }}" alt="{{ $p.Title }}" loading="lazy" />
+          <img src="{{ $img | relURL }}" alt="{{ $p.Title }}" loading="lazy">
         </a>
       {{ end }}
     </div>
