@@ -1,6 +1,6 @@
 ---
 title: "Balbutiate — To Stutter or Speak with Hesitation"
-date: 2025-11-07T09:30:00-05:00
+publishDate: 2025-11-07T00:00:00-05:00
 draft: false
 type: "post"
 categories: ["Linguistics", "Speech"]
