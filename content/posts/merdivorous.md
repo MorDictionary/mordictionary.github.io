@@ -7,6 +7,7 @@ categories: ["Biology", "Etymology"]
 tags: ["zoology", "behavioral-biology"]
 summary: "Relating to or characterized by the eating of excrement."
 cover: "/images/500_Science/M/Merdivorous.png"
+slug: "merdivorous"
 ---
 # Merdivorous
 

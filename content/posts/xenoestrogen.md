@@ -7,6 +7,7 @@ categories: ["Biochemistry", "Endocrinology"]
 tags: ["hormones", "toxicology", "environmental-health"]
 summary: "Any of a group of natural or synthetic compounds showing hormone-like activity that acts as an estrogen."
 cover: "/images/Xenoestrogen.png"
+slug: "xenoestrogen"
 ---
 # Xenoestrogen
 
