@@ -8,6 +8,8 @@ tags: ["hormones", "toxicology", "environmental-health"]
 summary: "Any of a group of natural or synthetic compounds showing hormone-like activity that acts as an estrogen."
 cover: "/images/Xenoestrogen.png"
 slug: "xenoestrogen"
+image: "/images/600_Technology/X/Xenoestrogen.png"
+images: ["/images/600_Technology/X/Xenoestrogen.png"]
 ---
 # Xenoestrogen
 
@@ -22,7 +24,8 @@ slug: "xenoestrogen"
 Xenoestrogens are a diverse class of natural and artificial chemicals that mimic or interfere with the function of the hormone estrogen.  
 
 
-![Illustration of the xenoestrogen molecular structure](/images/Xenoestrogen.png)
+![Illustration of the xenoestrogen molecular structure](/images/600_Technology/X/Xenoestrogen.png)
+
 
 ---
 
