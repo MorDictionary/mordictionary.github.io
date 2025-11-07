@@ -36,7 +36,7 @@ dewey: "414 — Phonology and Phonetics (Speech Sounds, Stuttering)"
 ---
 
 ## Etymology
-From Latin *balbutiāre* — “to stammer” or “babble.” Related to *balbus*, meaning “stammering” or “lisping.”
+From Latin *balbutiāre*, meaning "to stammer" or "babble." Related to *balbus*, meaning "stammering" or "lisping."
 
 ---
 
@@ -47,7 +47,7 @@ From Latin *balbutiāre* — “to stammer” or “babble.” Related to *balbu
 ---
 
 ## Notes
-Often used poetically or rhetorically to describe the trembling uncertainty of early speech — whether in children, the nervous, or the inspired. *Balbutiation* can imply either weakness or divine awe, depending on context: a hesitation before truth or beauty too great for fluent speech.
+Often used poetically or rhetorically to describe the trembling uncertainty of early speech, whether in children, the nervous, or the inspired. *Balbutiation* can imply either weakness or divine awe, depending on context: a hesitation before truth or beauty too great for fluent speech.
 
 ---
 
@@ -58,4 +58,4 @@ The title and lyrical motif (“You sound guilty ’cause you’re stuttering”
 
 🎤 **Ed Sheeran – “Used Eminem’s Songs to Cure His Stutter”**  
 [Watch on YouTube](https://youtu.be/Xqj_uVIkI50?si=eLhnlfXaPdTvCV6d)  
-A real-life account of overcoming *balbutiation* through rhythm and rap — demonstrating how music can retrain speech patterns and confidence.
+A real-life account of overcoming *balbutiation* through rhythm and rap, demonstrating how music can retrain speech patterns and confidence.
