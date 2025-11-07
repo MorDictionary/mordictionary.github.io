@@ -1,4 +1,4 @@
-baseURL = "https://mordictionary.github.io/MorDictionary/"
+baseURL = "https://mordictionary.github.io/"
 title = "MorDictionary"
 theme = "hugo-brewm"
 languageCode = "en-us"
