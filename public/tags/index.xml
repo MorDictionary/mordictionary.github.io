@@ -2,33 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
   <channel>
     <title>Tags on MorDictionary</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://mordictionary.github.io/tags/</link>
     <description>Recent Posts in Tags on MorDictionary</description>
     <generator>Hugo 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Nov 2025 02:43:20 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Nov 2025 03:32:49 -0500</lastBuildDate>
+    <atom:link href="https://mordictionary.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Behavioral-Biology</title>
+      <link>https://mordictionary.github.io/tags/behavioral-biology/</link>
+      <pubDate>Fri, 07 Nov 2025 03:30:00 -0500</pubDate>
+      <guid>https://mordictionary.github.io/tags/behavioral-biology/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Lexicography</title>
+      <link>https://mordictionary.github.io/tags/lexicography/</link>
+      <pubDate>Fri, 07 Nov 2025 03:30:00 -0500</pubDate>
+      <guid>https://mordictionary.github.io/tags/lexicography/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Zoology</title>
+      <link>https://mordictionary.github.io/tags/zoology/</link>
+      <pubDate>Fri, 07 Nov 2025 03:30:00 -0500</pubDate>
+      <guid>https://mordictionary.github.io/tags/zoology/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
     <item>
       <title>Environmental-Health</title>
-      <link>http://localhost:1313/tags/environmental-health/</link>
+      <link>https://mordictionary.github.io/tags/environmental-health/</link>
       <pubDate>Tue, 04 Nov 2025 04:25:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/environmental-health/</guid>
+      <guid>https://mordictionary.github.io/tags/environmental-health/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
       <title>Hormones</title>
-      <link>http://localhost:1313/tags/hormones/</link>
+      <link>https://mordictionary.github.io/tags/hormones/</link>
       <pubDate>Tue, 04 Nov 2025 04:25:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/hormones/</guid>
+      <guid>https://mordictionary.github.io/tags/hormones/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
       <title>Toxicology</title>
-      <link>http://localhost:1313/tags/toxicology/</link>
+      <link>https://mordictionary.github.io/tags/toxicology/</link>
       <pubDate>Tue, 04 Nov 2025 04:25:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/toxicology/</guid>
+      <guid>https://mordictionary.github.io/tags/toxicology/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
