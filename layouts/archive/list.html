@@ -1,0 +1,26 @@
+cat > list.html <<'EOF'
+{{/* Tumblr-like archive grouped by month */}}
+{{ $sections := site.Params.mainSections | default (slice "posts" "post") }}
+{{ $pages := where site.RegularPages "Section" "in" $sections }}
+
+<section class="tumblr-archive container">
+  {{ range $month := ($pages | groupByDate "January 2006") }}
+    <h2 class="ta-month">{{ $month.Key }}</h2>
+
+    <div class="ta-grid">
+      {{ range $p := $month.Pages }}
+        {{ $img := "" }}
+        {{ with $p.Params.cover }}{{ $img = . }}{{ end }}
+        {{ if and (eq $img "") ($p.Params.images) }}{{ $img = index $p.Params.images 0 }}{{ end }}
+        {{ if eq $img "" }}{{ $img = "images/placeholder.png" }}{{ end }}
+
+        <a class="ta-tile" href="{{ $p.RelPermalink }}" title="{{ $p.Title }}"
+           data-month='{{ $p.Date.Format "2006-01" }}'
+           data-tags='{{ delimit ($p.Params.tags | default (slice)) "," }}'>
+          <img src="{{ $img | relURL }}" alt="{{ $p.Title }}" loading="lazy" />
+        </a>
+      {{ end }}
+    </div>
+  {{ end }}
+</section>
+EOF
