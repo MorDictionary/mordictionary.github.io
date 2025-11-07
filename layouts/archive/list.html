@@ -1,21 +1,20 @@
-{{/* Tumblr-like archive grouped by month */}}
+{{/* Tumblr-like archive grouped by month (works on Hugo v0.152+) */}}
 {{ $sections := site.Params.mainSections | default (slice "posts" "post") }}
-{{ $pages := where site.RegularPages "Section" "in" $sections }}
+{{ $pages := (where site.RegularPages "Section" "in" $sections).ByDate.Reverse }}
+{{ $groups := $pages.GroupByDate "January 2006" }}
 
 <section class="tumblr-archive">
-  {{ range $group := ($pages | groupByDate "January 2006") }}
-    <h2 class="ta-month">{{ $group.Key }}</h2>
-
+  {{ range $groups }}
+    <h2 class="ta-month">{{ .Key }}</h2>
     <div class="ta-grid">
-      {{ range $p := $group.Pages }}
-        {{/* pick a cover image: front-matter cover, images[0], or fallback */}}
+      {{ range .Pages }}
         {{ $img := "" }}
-        {{ with $p.Params.cover }}{{ $img = . }}{{ end }}
-        {{ if and (eq $img "") ($p.Params.images) }}{{ $img = index $p.Params.images 0 }}{{ end }}
+        {{ with .Params.cover }}{{ $img = . }}{{ end }}
+        {{ if and (eq $img "") (.Params.images) }}{{ $img = index .Params.images 0 }}{{ end }}
         {{ if eq $img "" }}{{ $img = "images/placeholder.png" }}{{ end }}
 
-        <a class="ta-tile" href="{{ $p.RelPermalink }}" title="{{ $p.Title }}">
-          <img src="{{ $img | relURL }}" alt="{{ $p.Title }}" loading="lazy">
+        <a class="ta-tile" href="{{ .RelPermalink }}" title="{{ .Title }}">
+          <img src="{{ $img | relURL }}" alt="{{ .Title }}" loading="lazy">
         </a>
       {{ end }}
     </div>
